@@ -156,11 +156,13 @@ class MainActivity : AppCompatActivity() {
             val input=con.length
             if(input>0){
                 meter.text = con.substring(0, input-1)
+                foot.text = ""
             }
             val non= foot.text.toString()
             val input1=non.length
             if(input1>0){
                 foot.text = non.substring(0, input-1)
+                meter.text = ""
             }
 
         }
